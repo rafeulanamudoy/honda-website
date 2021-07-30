@@ -1,0 +1,53 @@
+
+.background{font-family:Arial, Helvetica, sans-serif;}
+
+.star-color{color:rgb(220, 220, 44);}
+.header-bg-color{
+    background-color: #264653;
+    ;
+}
+.button-colors{
+    background-color: #E76F51;
+
+    border-radius: 5px !important;
+    text-align: center;
+}
+.bike{
+    filter: grayscale(100%);
+}
+.hr-line{
+    max-width: 60px; border-top: 1px solid #E76F51;
+}
+.button-purches{
+}
+/*=========================
+        FAQ CSS
+===========================*/
+.faqTitle h2 {
+    color: #0D0925;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px; }
+    .faqTitle h2 span {
+      color: #E76F51; }
+
+  .faq .accordion .accordion-item h2 button {
+    color: #383838;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px; }
+
+  .faq .accordion .accordion-item p {
+    color: #7E848C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px; }
+
+    @media only screen and (max-width: 600px) {
+        body {
+          width:100vh;
+        }
+      }
